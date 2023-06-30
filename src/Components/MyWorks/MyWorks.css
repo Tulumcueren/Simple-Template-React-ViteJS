@@ -1,0 +1,40 @@
+.MyWorks {
+  display: flex;
+  flex-direction: column;
+}
+.MyWorks > .Explore > .Button:hover {
+  background: #ff914294;
+  cursor: pointer;
+}
+.MyWorks > .Explore > .Button {
+  padding: 1.5rem 3rem;
+  font-size: 13;
+  color: white;
+  border-radius: 4rem;
+  font-weight: bold;
+  border: solid 2px #ff9142;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.MyWorks > .Explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MyWorks > .title {
+  margin: 8rem 0rem;
+  text-align: center;
+  font-size: 64px;
+}
+.MyWorks > .CardContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 13rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}

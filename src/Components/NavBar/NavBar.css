@@ -1,0 +1,66 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 8rem;
+}
+div.Navigations{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+div.Section{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #8D8D8D;
+}
+div.Section:hover{
+    cursor: pointer;
+
+    color: white;
+}
+div.Logo{
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+}
+div.Logo>div.SpecialO{
+    color: #B1B1B1;
+}
+div.special{
+    background-color: #3c3c3ca5;
+    border-radius: 100%;
+    
+    position: absolute;
+    margin-left: 3.6rem;
+    height: 1.8rem;
+    width: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.special>div{
+    border-radius: 100%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #1A1A1A;
+
+}
+div.SectionEnd{
+    text-decoration: none;
+    display: flex;
+    font-weight: bold;
+    color: #CFCFCF;
+    background: #030304;
+    border: solid 2px #5E5E5E;
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+    border-radius: 3rem;
+}
+div.SectionEnd:hover{
+    cursor: pointer;
+    background:#1d1d34 ;
+    color: white;
+    border: #3f364a solid 2px;
+}

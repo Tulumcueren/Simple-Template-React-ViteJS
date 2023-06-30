@@ -1,0 +1,35 @@
+div.Testimonial>div.row >img {
+    width: 10%;
+}
+div.Testimonial>div.row > div.Title{
+    font-weight: bold;
+    font-size: 64px;
+}
+div.Testimonial>div.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 8% ;
+}
+div.Testimonial{
+    margin-top: 15%;
+    margin-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+div.Testimonial>div.Description{
+    font-size: 18px;
+    color: #949494;
+}
+div.Testimonial>div.Credit,
+div.Testimonial>div.Description{
+    margin-left: 8%;
+    width: 40%;
+}
+div.Testimonial>div.Credit{
+    font-weight: bold;
+    font-size: 24px;
+
+
+}

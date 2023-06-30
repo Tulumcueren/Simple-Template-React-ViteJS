@@ -1,0 +1,16 @@
+body {
+  margin:0;
+  padding:0;
+  background-color: #1A1A1A;
+  color: white;
+  font-family: 'Syne', sans-serif;
+}
+
+div.ColumnMain{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}

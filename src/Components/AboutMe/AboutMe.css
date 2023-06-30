@@ -1,0 +1,60 @@
+div.AboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+div.RowCentered>div.ColumnCentered{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div.ColumnCentered> div.ColumnStart>div.Description{
+    font-size: 18px;
+    color: #A8A8A8;
+}
+div.ColumnCentered> div.ColumnStart>div.Title{
+    display: flex;
+    font-size: 56px;
+    font-weight: bold;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+}
+
+
+div.AboutMe>div.RowCentered{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+}
+
+div.Image{
+    width: 30%;
+}
+div.Image>img.PersonImage{
+    width: 100%;
+}
+div.ColumnCentered> div.ColumnStart{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+div.ColumnCentered> div.ColumnStart>div.Button{
+    margin-top: 3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background: #FF9142;
+}
+div.ColumnCentered> div.ColumnStart>div.Button:hover{
+    background-color: #de8546;
+}

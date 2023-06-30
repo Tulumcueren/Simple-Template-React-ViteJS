@@ -1,0 +1,50 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.Card > img {
+  width: 30vw;
+}
+.Card > .DataColumn > .Client >.colorWhite{
+  color:white ;
+}
+.Card > .DataColumn > .Client{
+  display: flex;
+  gap: 1rem;
+}
+.Card > .DataColumn > .Client,
+.Card > .DataColumn > .Work {
+  color: #606060;
+}
+
+.Card > .DataColumn >.Name{
+  display: flex;
+  margin: 2rem 0;
+  font-size: 24px;
+  align-items: center;
+}
+.Card > .DataColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.Card > .DataColumn > .Name > .yellowLine {
+  width: 4rem;
+  height: 2px;
+  background-color: #ff9142;
+}
+
+.Card > .DataColumn > .Work>.colorWhite {
+  color: white;
+}
+.Card > .DataColumn > .Work {
+  display: flex;
+  gap: 1rem;
+
+}
+.Card > .DataColumn > .Name {
+  display: flex;
+  gap: 2rem;
+}
