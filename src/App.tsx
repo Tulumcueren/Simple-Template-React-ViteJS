@@ -8,14 +8,14 @@ import Testimonial from './Components/Testimonial/Testimonial'
 function App() {
  
   return (
-    <div className='ColumnMain'>
+    <>
       <NavBar />
       <Presentation />
       <AboutMe/>
       <MyWorks/>
       <Testimonial/>
       <Contact/>
-    </div>
+    </>
   )
 }
 
